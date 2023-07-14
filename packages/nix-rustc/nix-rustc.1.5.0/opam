@@ -1,0 +1,8 @@
+opam-version: "2.0"
+install: [
+  "nix-env"
+  "-iA"
+  "rustc"
+  "-f"
+  "https://github.com/NixOS/nixpkgs/archive/2f6ef9aa6a7eecea9ff7e185ca40855f36597327.tar.gz"
+]

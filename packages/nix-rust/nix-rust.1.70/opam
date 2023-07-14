@@ -11,4 +11,3 @@ install: [
   "https://github.com/NixOS/nixpkgs/archive/28e0126876d688cf5fd15da1c73fbaba256574f0.tar.gz"
 ]
 depopts: [ ]
-url { src: "https://github.com/NixOS/nixpkgs/archive/28e0126876d688cf5fd15da1c73fbaba256574f0.tar.gz" }

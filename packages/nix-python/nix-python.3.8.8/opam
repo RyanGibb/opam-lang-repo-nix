@@ -2,7 +2,7 @@ opam-version: "2.0"
 install: [
   "nix-env"
   "-iA"
-  "rustc"
+  "python3"
   "-f"
   "https://github.com/NixOS/nixpkgs/archive/0ffaecb6f04404db2c739beb167a5942993cfd87.tar.gz"
 ]

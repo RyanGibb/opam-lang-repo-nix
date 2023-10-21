@@ -1,8 +1,11 @@
 opam-version: "2.0"
+depends: [
+  "nixpkgs" {= "25b53f32236b308172673c958f570b5b488c7b73" }
+]
 install: [
   "nix-env"
   "-iA"
-  "python3"
+  "python37"
   "-f"
   "https://github.com/NixOS/nixpkgs/archive/25b53f32236b308172673c958f570b5b488c7b73.tar.gz"
 ]

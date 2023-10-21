@@ -1,4 +1,7 @@
 opam-version: "2.0"
+depends: [
+  "nixpkgs" {= "80bda4933272f7e244dc9702f39d18433988cdd0" }
+]
 install: [
   "nix-env"
   "-iA"
